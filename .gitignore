@@ -1,0 +1,23 @@
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+Manifest.toml
+*.toml.bak
+
+# Results and outputs
+timing_results.txt
+*.mat
+!data/**/*.mat
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+

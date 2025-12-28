@@ -1,0 +1,22 @@
+REQUIRED DATA FILES
+===================
+
+Please copy the following .mat files to the data/ directory:
+
+data/EIT_4/
+-----------
+- EIT_FineSamples1.mat
+- EIT_FineSamples2.mat
+- EIT_FineSamples1or2.mat
+- FineGridPoints.mat
+
+data/Ensemble/
+-------------
+- EIT_2_CoarseSamples.mat
+- CoarseGridPoints.mat
+
+INSTRUCTIONS:
+1. Copy these files from your original locations to the corresponding directories in data/
+2. The files should be placed exactly as shown above
+3. Once all files are in place, you can run: julia --project=. -t 20 main.jl
+
