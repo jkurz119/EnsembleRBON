@@ -9,7 +9,10 @@ Ensemble/
 ├── main.jl                    # Main script to run timing comparisons
 ├── EnsembleRBON.jl           # Core ensemble RBON implementation
 ├── README.md                  # This file
-├── data/                      # Data files directory
+├── LICENSE                    # MIT License
+├── Project.toml              # Julia package dependencies
+├── .gitignore                # Git ignore rules
+├── data/                     # Data files directory
 │   ├── EIT_4/
 │   │   ├── EIT_FineSamples1.mat
 │   │   ├── EIT_FineSamples2.mat
@@ -18,10 +21,12 @@ Ensemble/
 │   └── Ensemble/
 │       ├── EIT_2_CoarseSamples.mat
 │       └── CoarseGridPoints.mat
-└── src/                       # Source code dependencies
-    ├── RBON.jl
-    ├── RBON_ElasticNet.jl
-    └── utils.jl
+├── src/                      # Source code dependencies
+│   ├── RBON.jl
+│   ├── RBON_ElasticNet.jl
+│   └── utils.jl
+└── data_generation/          # Data generation scripts
+    └── EIT_SampleGen3_12_25.m  # MATLAB script to generate training data
 ```
 
 ## Dependencies
@@ -42,7 +47,7 @@ This project requires the following Julia packages (see `Project.toml`):
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
-   cd Ensemble
+   cd <repository-name>
    ```
 
 2. **Install Julia dependencies:**
